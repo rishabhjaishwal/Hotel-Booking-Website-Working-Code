@@ -87,11 +87,11 @@ CREATE TABLE `bookedcustomerdetail` (
 --
 
 INSERT INTO `bookedcustomerdetail` (`id`, `fname`, `lname`, `email`, `phoneno`, `guest`, `checkin`, `checkout`, `hotelname`, `price`) VALUES
-(1, 'Mohit', 'Kumar', 'mohit97@gmail.com', '9458079094', '2', '2018-03-13', '2018-03-13', '1', '1500'),
-(2, 'Nipun', 'Kumar', 'nipun17@gmail.com', '9768678568', '2', '2018-03-21', '2018-03-23', '9', '1600'),
-(3, 'Rishabh', 'Jaishwal', 'rishabh7@gmail.com', '8933840842', '2', '2018-03-14', '2018-03-18', '7', '1300'),
-(4, 'dzfs', 'cdzvvd', 'vdvvdxcd@gmail.com', '8674758565', '1', '2018-03-21', '2018-03-23', '5', '456'),
-(5, 'rishabh', 'jaishwal', 'risj@gmail.com', '8933840842', '3', '2018-03-14', '2018-03-15', '2', '2000'),
+(1, 'Mohit', 'Kumar', 'mohit97@gmail.com', '9438079094', '2', '2018-03-13', '2018-03-13', '1', '1500'),
+(2, 'Nipun', 'Kumar', 'nipun7@gmail.com', '9867812568', '2', '2018-03-21', '2018-03-23', '9', '1600'),
+(3, 'Rishabh', 'Jaishwal', 'rishab@gmail.com', '8945640842', '2', '2018-03-14', '2018-03-18', '7', '1300'),
+(4, 'dzfs', 'cdzvvd', 'vdvvdxcd@gmail.com', '9867812568', '1', '2018-03-21', '2018-03-23', '5', '456'),
+(5, 'rishabh', 'jaishwal', 'risj@gmail.com', '9867812568', '3', '2018-03-14', '2018-03-15', '2', '2000'),
 (6, 'Vipin', 'Singh', '1997vipins@gmail.com', '8077589775', '1', '2018-04-24', '2018-04-25', '2', '2000'),
 (7, 'Vipin', 'Singh', '1997vipins@gmail.com', '8077589775', '4', '2018-04-24', '2018-04-25', '2', '2000'),
 (8, 'Tahzeeb', 'Tyagi', 'tahzeeb123@gmail.com', '9648568183', '1', '2018-04-25', '2018-04-27', '3', '800'),
@@ -122,7 +122,7 @@ INSERT INTO `bookedcustomerdetail` (`id`, `fname`, `lname`, `email`, `phoneno`, 
 (33, 'Vipin', 'Singh', '1997vipins@gmail.com', '8127171789', '2', '2018-04-27', '2018-04-28', '1', '1000'),
 (34, 'Vipin', 'Singh', '1997vipins@gmail.com', '8127171789', '2', '2018-04-27', '2018-04-28', '1', '1000'),
 (35, 'Kumud', 'Ranjan', 'rkumud399@gmail.com', '8757144948', '1', '2018-04-26', '2018-04-27', '10', '1400'),
-(36, 'Kumud', 'Ranjan', 'prakashvk96@gmail.com', '9412805717', '1', '2018-04-26', '2018-04-27', '10', '1400');
+(36, 'Kumud', 'Ranjan', 'prakashvk96@gmail.com', '9867812568', '1', '2018-04-26', '2018-04-27', '10', '1400');
 
 -- --------------------------------------------------------
 
@@ -202,7 +202,7 @@ INSERT INTO `contactenquirey` (`sno`, `name`, `email`, `subject`, `comment`) VAL
 (2, 'vhg', 'bbjb', 'Bookinghotel', 'bhvvhgvh'),
 (3, 'Shivam', 'shivam7@gmail.com', 'Bookinghotel', 'Hello'),
 (4, 'amit', 'rathi', 'Bookinghotel', 'hello'),
-(5, 'tahzeeb tyagi', 'tahzeebtyagi04@gmail.com', 'Bookingcab', 'I want to book a room'),
+(5, 'tahzeeb tyagi', 'tahzeebtygi04@gmail.com', 'Bookingcab', 'I want to book a room'),
 (6, 'kumud', 'kumud1@gmail.com', 'Bookingcab', 'djgsgdhff');
 
 -- --------------------------------------------------------
@@ -631,20 +631,20 @@ CREATE TABLE `hotel2018006roombookinguser` (
 --
 
 INSERT INTO `hotel2018006roombookinguser` (`transactionid`, `customername`, `contactno`, `email`, `guestnumber`, `userid`) VALUES
-('MOJO8513005A71989073', 'Ravi Singh', 'rishabhjaishwal7@gmail.com', '+918933840842', '1', 'Delux Room'),
-('MOJO8513005A71989134', 'king gorge', 'rishabhjaishwal7@gmail.com', '+918933840842', '2', 'Delux Room'),
-('MOJO8513005A71989138', 'king gorge', 'rishabhjaishwal7@gmail.com', '+918933840842', '2', 'Delux Room'),
+('MOJO8513005A71989073', 'Ravi Singh', 'rishabhjaishwal7@gmail.com', '+9867812568', '1', 'Delux Room'),
+('MOJO8513005A71989134', 'king gorge', 'rishabhjaishwal7@gmail.com', '+9867812568', '2', 'Delux Room'),
+('MOJO8513005A71989138', 'king gorge', 'rishabhjaishwal7@gmail.com', '+9867812568', '2', 'Delux Room'),
 ('MOJO8513005A71989176', 'Ravi lion', 'prakashvk96@gmail.com', '+919412805717', '3', 'Delux Room'),
 ('MOJO8514005A56703735', 'anjali singh', 'anjalisngh2369@gmail.com', '+918475884731', '3', 'Delux Room'),
 ('MOJO8514005A56703749', 'Sajan Kumar', 'sajangaurav@gmail.com', '+917631840559', '3', 'Delux Room'),
 ('MOJO8515005A30414421', 'yash kumar', 'ravikr.5678@gmail.com', '+919410093618', '3', 'Delux Room'),
 ('MOJO8515005A30414439', 'Vipin Singh', '1997vipins@gmail.com', '+918127171789', '3', 'Delux Room'),
-('MOJO8515005A30414594', 'Amit Singh', '1997vipins@gmail.com', '+918006719503', '4', 'Delux Room'),
-('MOJO8515005A30414600', 'Rashi Singh', 'singhrashi70@gmail.com', '+918006719503', '4', 'dlx01'),
+('MOJO8515005A30414594', 'Amit Singh', '1997vipins@gmail.com', '+9867812568', '4', 'Delux Room'),
+('MOJO8515005A30414600', 'Rashi Singh', 'singhrashi70@gmail.com', '+9867812568', '4', 'dlx01'),
 ('MOJO8517005A67521849', 'Ashwinee gaurav', 'ashwinee@gmail.com', '+919304010873', '3', 'dlx01'),
 ('MOJO8517005A67522092', 'Kumud  Ranjan', 'rkumud399@gmail.com', '+919058321920', '6', 'dlx01'),
 ('MOJO8531005A92142629', 'Ravi Kumar', '1997vipins@gmail.com', '+918077589775', '1', 'dlx01'),
-('MOJO8704005A10270049', 'Prakhar Kumar', 'prakharkumar10047@gmail.com', '+919870987703', '1', 'dlx01');
+('MOJO8704005A10270049', 'Prakhar Kumar', 'prakharkumar10047@gmail.com', '+9867812568', '1', 'dlx01');
 
 -- --------------------------------------------------------
 
@@ -1082,7 +1082,7 @@ CREATE TABLE `hotel2018013roombookinguser` (
 --
 
 INSERT INTO `hotel2018013roombookinguser` (`transactionid`, `customername`, `contactno`, `email`, `guestnumber`, `userid`) VALUES
-('MOJO8601005A13923184', 'Tahzeeb Tyagi', 'tahzeebtyagi04@gmail.com', '+919410414927', '2', 'dlx01');
+('MOJO8601005A13923184', 'Tahzeeb Tyagi', 'tahzeeyagi04@gmail.com', '+919410414927', '2', 'dlx01');
 
 -- --------------------------------------------------------
 
@@ -1163,7 +1163,7 @@ CREATE TABLE `hotel2018014roombookinguser` (
 --
 
 INSERT INTO `hotel2018014roombookinguser` (`transactionid`, `customername`, `contactno`, `email`, `guestnumber`, `userid`) VALUES
-('MOJO8704005A10270094', 'Tahzeeb Tyagi', 'tahzeebtyagi04@gmail.com', '+919648568183', '1', 'dlx01'),
+('MOJO8704005A10270094', 'Tahzeeb Tyagi', 'tahzeebtya4@gmail.com', '+919648568183', '1', 'dlx01'),
 ('MOJO8909005A28381850', 'Vipin Singh', '1997vipins@gmail.com', '+918127171789', '1', 'dlx01');
 
 -- --------------------------------------------------------
@@ -1244,7 +1244,7 @@ CREATE TABLE `hotel2018015roombookinguser` (
 --
 
 INSERT INTO `hotel2018015roombookinguser` (`transactionid`, `customername`, `contactno`, `email`, `guestnumber`, `userid`) VALUES
-('MOJO8719005A05309588', 'Tahzeeb Tyagi', 'tahzeebtyagi04@gmail.com', '+919648568183', '1', 'dlx01');
+('MOJO8719005A05309588', 'Tahzeeb Tyagi', 'tahzeebt04@gmail.com', '+9867812568', '1', 'dlx01');
 
 -- --------------------------------------------------------
 
@@ -1332,7 +1332,7 @@ CREATE TABLE `hotel2018016roombookinguser` (
 --
 
 INSERT INTO `hotel2018016roombookinguser` (`transactionid`, `customername`, `contactno`, `email`, `guestnumber`, `userid`) VALUES
-('MOJO8601005A13923070', 'Vipin Singh', '1997vipins@gmail.com', '+919410093618', '1', 'dlx01');
+('MOJO8601005A13923070', 'Vipin Singh', '1997vips@gmail.com', '+9867812568', '1', 'dlx01');
 
 -- --------------------------------------------------------
 
@@ -1541,10 +1541,10 @@ CREATE TABLE `newsletter` (
 
 INSERT INTO `newsletter` (`sno`, `email`, `subscribedate`, `contact`) VALUES
 (1, 'king', '2017-08-10', '89783564'),
-(2, 'mohit97@gmail.com', '2018-03-13', '9458079094'),
+(2, 'mohit7@gmail.com', '2018-03-13', '9458079094'),
 (3, 'heena79@gmail.com', '2018-05-15', '8006719503'),
-(5, 'mohit972@gmail.com', '2018-05-31', '9405870941'),
-(6, 'tahzeebtyagi04@gmail.com', '2018-07-04', '9410414927');
+(5, 'mohi72@gmail.com', '2018-05-31', '9405870941'),
+(6, 'tahzetyagi04@gmail.com', '2018-07-04', '9410414927');
 
 -- --------------------------------------------------------
 
@@ -1630,22 +1630,22 @@ CREATE TABLE `querybox` (
 --
 
 INSERT INTO `querybox` (`sno`, `name`, `email`, `query`, `date`) VALUES
-(1, 'Rishabh', 'rishabhjaishwal7@gmail.com', 'I am newby here             ', '2017-08-27'),
-(2, 'Mohit', 'mohitsain.95@gmail.com', 'Enjoy the awesome plateform', '2017-08-27'),
-(3, 'ravi', 'ravikr.5678@gmail.com', 'Cool to meet u all            ', '2017-08-27'),
-(4, 'Rishabh', 'rishabhjaishwal7@gmail.com', '\"excited to get benefit\"', '2017-08-27'),
+(1, 'Rishabh', 'rishabhjais@gmail.com', 'I am newby here             ', '2017-08-27'),
+(2, 'Mohit', 'mohiin.95@gmail.com', 'Enjoy the awesome plateform', '2017-08-27'),
+(3, 'ravi', 'ravi@gmail.com', 'Cool to meet u all            ', '2017-08-27'),
+(4, 'Rishabh', 'rishabhjai@gmail.com', '\"excited to get benefit\"', '2017-08-27'),
 (5, 'Ravi', 'ravikr.5678@gmail.com', 'Yes;', '2017-08-27'),
-(6, 'rishabh', 'rishabhjaishwal7@gmail.com', 'tutorial,video,photo', '2017-08-27'),
-(7, 'Mohit', 'mohitsain.95@gmail.com', '&prime;I am happy to join plateform &prime;', '2017-08-27'),
+(6, 'rishabh', 'rishabhjai@gmail.com', 'tutorial,video,photo', '2017-08-27'),
+(7, 'Mohit', 'mohitsai5@gmail.com', '&prime;I am happy to join plateform &prime;', '2017-08-27'),
 (8, 'Kumud', 'rkumud399@gmail.com', 'i really enjoying ur site it makes me feel better', '2017-08-27'),
 (9, 'nipun', 'rksain98@gmail.com', 'thanks admine for developing a great platform for us to imagine the better view life.it really helping m to understand the hadoop and its explore.one openion that i want to give you that keep updating on regular basis thats why we get the updated info.', '2017-08-27'),
 (10, 'ravi kumar', 'ravikr.5678@gmail.com', 'hello guyz! how are you?\r\n', '2017-08-27'),
 (11, 'Rishabh', 'rishabhjaishwal7@gmail.com', 'hello', '2017-08-27'),
-(12, 'Mohit', 'mohitsain.95@gmail.com', 'hello \'rishabh\' how are u?; ', '2017-08-27'),
-(15, 'Mohit', 'mohitsain.95@gmail.com', '<html>', '2017-08-27'),
+(12, 'Mohit', 'mohitsai@gmail.com', 'hello \'rishabh\' how are u?; ', '2017-08-27'),
+(15, 'Mohit', 'mohitsai@gmail.com', '<html>', '2017-08-27'),
 (16, 'king', 'king@gmail.com', '<div>king</div> \'boss\';?,\"\":;<>.,@#!~`', '2017-08-27'),
-(17, 'Rishabh', 'rishabhjaishwal7@gmail.com', 'pyr\r\nrfr\r\nr\r\nf\r\nf\r\n\r\nf', '2017-08-27'),
-(18, 'rishabh', 'rksain98@gmail.com', '<a href=\"www.google.com\" >nkiuuy</a>', '2017-08-28');
+(17, 'Rishabh', 'rishabhjaish@gmail.com', 'pyr\r\nrfr\r\nr\r\nf\r\nf\r\n\r\nf', '2017-08-27'),
+(18, 'rishabh', 'rksai@gmail.com', '<a href=\"www.google.com\" >nkiuuy</a>', '2017-08-28');
 
 -- --------------------------------------------------------
 
