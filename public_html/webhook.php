@@ -17,7 +17,7 @@ else{
 
 // You can get the 'salt' from Instamojo's developers page(make sure to log in first): https://www.instamojo.com/developers
 // Pass the 'salt' without the <>.
-$mac_calculated = hash_hmac("sha1", implode("|", $data), "bda46beac5924bf5a58b7bbce51398ad");
+$mac_calculated = hash_hmac("sha1", implode("|", $data), "bda46beac54bf5a58b7bbce51398ad");
 
 if($mac_provided == $mac_calculated){
     echo "MAC is fine";
@@ -25,7 +25,7 @@ if($mac_provided == $mac_calculated){
     if($data['status'] == "Credit"){
        // Payment was successful, mark it as completed in your database  
                 
-                $to = 'ravikr.5678@gmail.com';
+                $to = 'ravi@gmail.com';
                 $subject = 'Website Payment Request ' .$data['buyer_name'].'';
                 $message = "<h1>Payment Details</h1>";
                 $message .= "<hr>";
