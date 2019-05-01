@@ -131,8 +131,8 @@ curl_setopt($ch, CURLOPT_HEADER, FALSE);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
 curl_setopt($ch, CURLOPT_HTTPHEADER,
-            array("X-Api-Key:test_fa3b846308e230b86c2268bcc07",
-                  "X-Auth-Token:test_18461c063ac5022c63abdcffe78"));
+            array("X-Api-Key:test_fa3b846308e230b86c68bcc07",
+                  "X-Auth-Token:test_18461c063ac50c63abdcffe78"));
 $payload = Array(
     'payment_id' => $payment_id,
     'type' => $type,
